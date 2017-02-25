@@ -1,0 +1,12 @@
+12 lines (11 sloc)  147 Bytes
+<html>
+<title>Jarkyn</title>
+</html>
+<script>
+function a_min(a,b)
+{
+    var min = Math.min(a,b);
+    return min;
+}
+alert(a_min(20,-40));
+</script>

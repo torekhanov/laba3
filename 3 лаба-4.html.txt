@@ -1,0 +1,16 @@
+
+<html>
+  <script>
+  var arr = [3,4,66,100,200,300,43,56,866,93,15,999,766],
+ fMax;
+  function a_Max(arr) {
+    var arrLen = arr.length,  maxSan = arr[0];
+    for (var i = 0; i < arrLen; i++) {
+      if (maxSan < arr[i]) {   maxSan = arr[i];
+      }}
+    return maxSan;
+  }
+  fMax = a_Max(arr);
+  document.write(" maximum otvet = " + fMax);
+</script>
+</html>

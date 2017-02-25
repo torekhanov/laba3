@@ -1,0 +1,29 @@
+
+
+<!DOCTYPE html>
+	<html>
+<head>
+ 	<title>Jarkyn</title>
+</head>
+
+<body>
+
+  <script>
+
+   function pow( a, n)   {    var b = a;
+  for (var i=1; i<n; i++){
+
+   b*= a;
+  }
+
+ return b;
+
+  } document.write("pow(a,n)="+(pow(2, 5)));
+
+ </script>
+
+ </script>
+
+</body>
+
+</html>
